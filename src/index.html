@@ -1,12 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62d3048985.js" crossorigin="anonymous"></script>
     <title>ATS Landing Page</title>
 </head>
-<body>
-    <h1 class="text-9xl">Landing Page</h1>
+
+<body class="font-mulish">
+    <section class="h-screen bg-gradient-to-tr from-purple to-light-purple">
+        <nav class="relative container mx-auto p-6">
+            <div class="flex items-center justify-between">
+                <div class="p-3"><img src="../images/logo.png" alt="" /></div>
+
+                <div class="hidden space-x-6 text-white md:flex">
+                    <a href="" class="hover:text-gray-200">Home</a>
+                    <a href="" class="hover:text-gray-200">About Us</a>
+                    <a href="" class="hover:text-gray-200">Features</a>
+                    <a href="" class="hover:text-gray-200">Testimonials</a>
+                    <a href="" class="hover:text-gray-200">Contact Us</a>
+                </div>
+
+                <a href=""
+                    class="hidden p-2.5 px-8 text-white border-2 border-white rounded-full shadow-lg transition-all hover:bg-white hover:text-purple md:block">Get
+                    Started</a>
+            </div>
+        </nav>
+        <header class="relative container mx-auto flex">
+            <div class="w-1/2 mx-auto p-6">
+                <div class="text-white my-16 font-rubik">
+                    <div class="text-4.5xl font-bold leading-[3.2rem]">
+                        Streamline Your Hiring Process with Our Applicant Tracking System
+                    </div>
+
+                    <div class="text-xl my-10">
+                        Efficiently Manage Candidates, Post Jobs, and Make Smarter Hiring Decisions
+                    </div>
+                </div>
+                <div>
+                    <a href=""
+                        class="p-3 px-12 bg-white border-2 mx-auto border-white rounded-full shadow-lg transition-all hover:bg-transparent hover:text-white">Get
+                        Started</a>
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-1/2">
+                <img class="w-4/5" src="../images/header-b-2.png" alt="vector-image">
+            </div>
+        </header>
+    </section>
+
+    <section class="relative container mx-auto m-8 text-body">
+        <div class="p-6 flex my-8">
+            <div class="flex flex-col justify-center items-center p-6">
+                <img class="w-max" src="../images/secure-icon-b.png" alt="">
+                <h3 class="text-lg font-bold my-4 mt-6">Job Posting</h3>
+                <p class="text-center px-6 h-16">
+                    Easily create and share job listings on multiple platforms.
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center p-6">
+                <img class="w-max" src="../images/optimized-icon.png" alt="">
+                <h3 class="text-lg font-bold my-4 mt-6">Candidate Search</h3>
+                <p class="text-center px-6">
+                    Quickly find relevant candidates using advanced filters.
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center p-6">
+                <img class="w-max" src="../images/store-icon.png" alt="">
+                <h3 class="text-lg font-bold my-4 mt-6">Application Tracking</h3>
+                <p class="text-center px-6">
+                    Monitor candidate progress through the hiring stages.
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center p-6">
+                <img class="w-max" src="../images/code-icon.png" alt="">
+                <h3 class="text-lg font-bold my-4 mt-6">Analytics & Reports</h3>
+                <p class="text-center px-6">
+                    Gain insights into your recruitment process.
+                </p>
+            </div>
+        </div>
+        <div class="flex justify-center mb-16">
+            <a href=""
+                class="p-3 px-12 text-white font-bold bg-gradient-to-tr from-purple to-light-purple rounded-full shadow-lg transition-all hover:opacity-80">Explore
+                All Features</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="bg-blue pb-16 relative">
+            <div>
+                <!-- class="before:absolute before:w-full before:h-full before:-top-[2%] before:-left-[5%] before:-rotate-[2%] before:bg-blue z-0"> -->
+                <div class="relative container mx-auto py-16">
+                    <h1 class="text-4.5xl font-bold font-rubik text-white text-center">Why Our ATS</h1>
+                </div>
+                <div class="flex ">
+                    <div class="flex justify-center items-center w-1/2">
+                        <img class="w-4/5" src="../images/why-us.png" alt="why-image">
+                    </div>
+                    <div class="w-1/2 mx-auto p-6 space-y-10">
+                        <div class="max-w-md flex">
+                            <div class="w-24 h-24 text-white flex items-center justify-center">
+                                <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-white font-bold text-2xl">
+                                    Expert Fusion of HR and Tech
+                                </h3>
+                                <p class="text-white">Our ATS solution harmonizes recruitment complexities, delivering
+                                    seamless
+                                    hiring experiences
+                                    from start to exceptional talent finish.</p>
+                            </div>
+                        </div>
+                        <div class="max-w-md flex">
+                            <div class="w-24 h-24 text-white flex items-center justify-center">
+                                <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-white font-bold text-2xl">
+                                    Recruitment Made Effortless
+                                </h3>
+                                <p class="text-white">Simplifying recruitment is our core. Our ATS redefines candidate
+                                    management, application assessment, and decision-making.</p>
+                            </div>
+                        </div>
+                        <div class="max-w-md flex">
+                            <div class="w-24 h-24 text-white flex items-center justify-center">
+                                <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-white font-bold text-2xl">
+                                    Your Partner in Hiring Triumph
+                                </h3>
+                                <p class="text-white">Beyond software, we're your dedicated hiring partner. With our
+                                    ATS,
+                                    you gain unwavering support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex relative container mx-auto py-16 mb-8">
+            <div class="w-1/2 mx-auto p-6 flex flex-col items-end justify-center">
+                <h1 class="text-4.5xl font-bold font-rubik text-body text-right">
+                    AI-Powered Candidate Search
+                </h1>
+                <p class="text-right text-body text-lg pt-4">
+                    Spotlight on the perfect fit. Our AI-driven candidate search feature sifts through profiles to
+                    deliver tailored results, helping you find the ideal candidates effortlessly.
+                </p>
+                <div class="flex justify-center my-8">
+                    <a href=""
+                        class="p-3 px-12 text-white font-bold bg-gradient-to-tr from-purple to-light-purple rounded-full shadow-lg transition-all hover:opacity-80">
+                        Get Started</a>
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-1/2">
+                <img class="w-4/5" src="../images/AI.png" alt="ai-image">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="relative container mx-auto mb-16">
+            <h1 class="text-4.5xl font-bold font-rubik text-body text-center">Trusted by 100+ worldwide companies
+            </h1>
+            <div class="max-w-4xl mx-auto my-10">
+                <div class="flex justify-between my-8 opacity-50">
+                    <div class="1/4">
+                        <img class="w-full" src="../images/company.png" alt="company">
+                    </div>
+                    <div class="1/4">
+                        <img class="w-full" src="../images/company.png" alt="company">
+                    </div>
+                    <div class="1/4">
+                        <img class="w-full" src="../images/company.png" alt="company">
+                    </div>
+
+                </div>
+                <div class="flex justify-between my-6 opacity-50">
+                    <div class="1/4">
+                        <img class="w-full" src="../images/company.png" alt="company">
+                    </div>
+                    <div class="1/4">
+                        <img class="w-full" src="../images/company.png" alt="company">
+                    </div>
+                    <div class="1/4">
+                        <img class="w-full" src="../images/company.png" alt="company">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section relative">
+        <div class="overlay absolute -left-[10%] h-[650px] w-[120%] top-0 -mt-[380px]"></div>
+        <div class="font-mulish bg-gradient-to-tr from-purple to-light-purple">
+            <div class="relative container mx-auto py-16 flex flex-col justify-center items-center">
+                <h1 class="text-4.5xl font-bold font-rubik text-white text-center mb-2">Contact Us
+                </h1>
+                <div class="flex justify-center items-center m-6 relative w-[600px]">
+                    <input class="p-6 w-full rounded-full text-lg pl-8" type="text" name="Contact" id="Contact"
+                        placeholder="Enter your email address">
+                    <a href=""
+                        class="p-3 px-12 text-white font-bold absolute right-4 bg-gradient-to-tr from-purple to-light-purple rounded-full shadow-lg transition-all hover:opacity-80">Contact
+                        Us</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="relative container mx-auto py-16 font-mulish flex justify-between max-w-4xl">
+            <div class="w-2/5">
+                <img src="../images/footer-logo-c.png" alt="">
+                <p class="text-body text-sm my-3">© 2023 ATS. All rights reserved.</p>
+            </div>
+
+            <div class="w-1/5">
+                <h4 class="font-bold text-body my-2">Quick Links</h4>
+                <div class="flex flex-col text-body text-sm space-y-2">
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Features</a>
+                    <a href="">Testimonials</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="w-1/5">
+                <h4 class="font-bold text-body my-2">Help?</h4>
+                <div class="flex flex-col text-body text-sm space-y-2">
+                    <a href="">FAQs</a>
+                    <a href="">Privacy</a>
+                    <a href="">Terms & conditon</a>
+                </div>
+            </div>
+
+            <div class="w-1/5 flex space-x-4">
+                <div class="rounded-full text-blue cursor-pointer">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </div>
+                <div class="rounded-full text-blue cursor-pointer">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                </div>
+                <div class="rounded-full text-blue cursor-pointer">
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
