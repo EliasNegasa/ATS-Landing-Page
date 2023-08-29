@@ -14,16 +14,17 @@
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/62d3048985.js" crossorigin="anonymous"></script>
+    <script defer src="./js/main.js"></script>
     <title>ATS Landing Page</title>
 </head>
 
 <body class="font-mulish">
     <section class="h-fit lg:h-screen p-4 md:p-0 pb-10 md:pb-0 bg-gradient-to-tr from-purple to-light-purple">
-        <nav class="relative container mx-auto p-6">
+        <nav class="relative container mx-auto p-0 md:p-6">
             <div class="flex items-center justify-between">
                 <div class="p-3"><img src="./images/logo.png" alt="" /></div>
 
-                <div class="hidden space-x-6 text-white md:flex">
+                <div class="hidden space-x-6 text-white lg:flex">
                     <a href="" class="hover:text-gray-200">Home</a>
                     <a href="" class="hover:text-gray-200">About Us</a>
                     <a href="" class="hover:text-gray-200">Features</a>
@@ -34,12 +35,30 @@
                 <a href=""
                     class="hidden p-2.5 px-8 text-white border-2 border-white rounded-full shadow-lg transition-all hover:bg-white hover:text-purple md:block">Get
                     Started</a>
+
+                <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+
+                <div class="lg:hidden">
+                    <div id="menu"
+                        class="z-10 text-body font-mulish absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Features</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
             </div>
         </nav>
         <header class="relative container mx-auto flex flex-col-reverse lg:flex-row 2xl:mt-20">
             <div class="w-full lg:w-1/2 mx-auto p-6">
                 <div class="text-white my-16 mt-4 md:mt-16 font-rubik text-center lg:text-left">
-                    <div class="text-3xl md:text-4.5xl 2xl:text-6xl font-bold leading-[2.5rem] md:leading-[3.2rem] 2xl:leading-4rem]">
+                    <div
+                        class="text-3xl md:text-4.5xl 2xl:text-6xl font-bold leading-[2.5rem] md:leading-[3.2rem] 2xl:leading-4rem]">
                         Streamline Your Hiring Process with Our Applicant Tracking System
                     </div>
 
@@ -193,7 +212,8 @@
 
     <section>
         <div class="relative container mx-auto mb-20">
-            <h1 class="text-3xl md:text-4.5xl font-bold font-rubik text-body text-center p-10">Trusted by 100+ worldwide companies
+            <h1 class="text-3xl md:text-4.5xl font-bold font-rubik text-body text-center p-10">Trusted by 100+ worldwide
+                companies
             </h1>
             <div class="max-w-4xl mx-auto my-10">
                 <div class="flex justify-between flex-wrap my-8 opacity-50">
@@ -227,7 +247,8 @@
             <div class="relative container mx-auto py-16 flex flex-col justify-center items-center">
                 <h1 class="text-3xl md:text-4.5xl font-bold font-rubik text-white text-center mb-2">Contact Us
                 </h1>
-                <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 justify-center items-center m-6 relative w-4/5 md:w-[600px]">
+                <div
+                    class="flex flex-col md:flex-row space-y-8 md:space-y-0 justify-center items-center m-6 relative w-4/5 md:w-[600px]">
                     <input class="p-4 md:p-6 w-full rounded-full text-lg pl-8" type="text" name="Contact" id="Contact"
                         placeholder="Enter your email address">
                     <a href=""
@@ -241,7 +262,7 @@
 
     <footer>
         <div
-            class="relative container mx-auto py-16 font-mulish flex flex-col md:flex-row justify-center md:justify-between text-center md:text-left space-y-4 max-w-4xl">
+            class="relative container mx-auto py-16 px-4 lg:px-0 font-mulish flex flex-col md:flex-row justify-center md:justify-between text-center md:text-left space-y-4 max-w-4xl">
             <div class="w-full md:w-2/5">
                 <img class="mx-auto md:mx-0" src="./images/footer-logo-c.png" alt="">
                 <p class="text-body text-sm my-3">© 2023 ATS. All rights reserved.</p>
